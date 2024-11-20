@@ -1,0 +1,44 @@
+.body{
+  width: 99vw;
+  height: 98vh;
+  text-align: center;
+}
+.body>div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p{color:rgb(20,20,40);}
+
+.cont{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+button{
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(70, 130, 243);
+  cursor: pointer;
+}
+button>p{
+  margin: 20px;
+}
+button:hover{background-color: rgb(63, 117, 217);}
+button:active{background-color: rgb(70, 130, 243);}
+
+textarea{
+  resize: none;
+  border-radius: 5px;
+  outline: rgb(70, 130, 243);
+  color: rgb(20,20,40);
+}
