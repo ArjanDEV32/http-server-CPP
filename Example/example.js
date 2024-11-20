@@ -1,5 +1,4 @@
 setTimeout(()=>{alert("HELOOOO!!!")},2000)
-const serverURL = window.location.href
 const textinput = document.getElementById("textinput")
 const sendbutton = document.getElementById("sendbutton")
 const xhr = new XMLHttpRequest();
