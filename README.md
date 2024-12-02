@@ -1,5 +1,5 @@
 # HTTP server in CPP
-This project is a demonstration of an http server in cpp.
+This project is a demonstration of an http server in cpp that only works on **linux**.
 
 This project is composed of a namespace called `http`
 and that name space is composed of three classes:
