@@ -104,7 +104,6 @@ namespace http {
       }
       return "";
     } 
-    void closeServer(){close(this->socketFD), this->started = 0;}
   };
 }
 
