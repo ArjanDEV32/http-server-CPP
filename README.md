@@ -9,7 +9,6 @@ and that name space is composed of three classes:
 class httpServer{
   std::string start(std::string ip, int port, void (*logBack)(void));
   std::string Listen(int (*callBack)(http::Request, http::Response), int requestByteSize);
-  void closeServer();
 };
 ```
 
